@@ -1,0 +1,4 @@
+Subdomains ( sous domaines )
+Admettons que nous avons un site internet avec comme nom de domaine lucalhost.com
+lucalhost est notre nom de domaine principale?/racine? , .com est nos domaine de premier niveau ( TLD top level domain ) représentant le point final de celui ci. plus d’info ici: (https://www.cloudflare.com/fr-fr/learning/dns/top-level-domain/)
+les sous domaines sont nos pre-fix avant notre nom de domaine racine, exemple blog.lucalhost.com , cela nous permettras de rediriger nos utilisateurs vers la partie blog de notre site web, ainsi on n’as pas besoin de payer un nouveau nom de domaine mais seulement de créer un sous domaine pour cette partie de notre site. La partie blog pouvant être héberger sur un autre serveur que notre dite web lucalhost.com, comme précédemment mentionner pour une partie blog, ou la partie api/back end etc. 
